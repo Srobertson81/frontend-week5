@@ -1,20 +1,42 @@
-
+body {
+    background-color: cornflowerblue;
+}
 section {
+    text-align:center;
+}
+h1 {
+    padding-top: 20px;
     text-align: center;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
-
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color:blue;
+} 
 .game-container {
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    width: 306px;
-    margin: 50px auto;
-}
-.cell {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
-    cursor: pointer;
+    width: 320px;
+    height: 320px;
+    margin: auto;
     line-height: 100px;
     font-size: 60px;
     font-family: sans-serif;
+}
+.square {
+    width: 102px;
+    height: 102px;
+    font-size: 100px;
+    float: left;
+    border: 2px solid black;
+    margin: 0;
+    padding: 0;
+}
+.square:hover {
+    background-color: paleturquoise;
+}
+.restart {
+    float: center;
+    margin-left: 130px;
 }

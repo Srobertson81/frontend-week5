@@ -1,7 +1,6 @@
 {
   "name": "bootcamp-frontend-week5",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +8,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.6.0",
     "jquery": "^3.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Srobertson81/frontend-week5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Srobertson81/frontend-week5/issues"
+  },
+  "homepage": "https://github.com/Srobertson81/frontend-week5#readme",
+  "description": ""
 }

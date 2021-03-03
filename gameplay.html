@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <section>
+        <h1>Tic Tac Toe</h1>
+        <h3 class="player-turn">Player Turn</h3>
+        <div class="game-container">            
+            <div square-cell-index="0" class="square"></div>
+            <div square-cell-index="1" class="square"></div>
+            <div square-cell-index="2" class="square"></div>
+            <div square-cell-index="3" class="square"></div>
+            <div square-cell-index="4" class="square"></div>
+            <div square-cell-index="5" class="square"></div>
+            <div square-cell-index="6" class="square"></div>
+            <div square-cell-index="7" class="square"></div>
+            <div square-cell-index="8" class="square"></div>
+        </div>
+        <div class="alert alert-primary" role ="alert">
+            <h2 class="game-status"></h2>
+        </div>
+        <button class="game-restart">Start Over</button>
+    </section>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="gameplay.js"></script>
+</body>
+</html>
